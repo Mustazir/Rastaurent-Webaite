@@ -330,9 +330,10 @@ margin-bottom: 23px;
 }
 #about-us{
     height: 610px;
-    background-color: #d1f5;
+    
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 #about-us .imagebox{
     width: 700px;
@@ -342,6 +343,11 @@ margin-bottom: 23px;
     
 }
 #about-des{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 48px;
     
 }
 .sub-des{
@@ -350,24 +356,53 @@ margin-bottom: 23px;
 }
 #about-des h1{
     color: rgb(16, 16, 16);
-font-family: Work Sans;
-font-size: 34px;
-font-weight: 700;
-line-height: 46px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Work Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    
 
 }
 #about-des .sub-des p{
     color: rgb(16, 16, 16);
     font-family: Work Sans;
-    font-size: 17px;
+    font-size: 24px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 28px;
     letter-spacing: 0%;
     text-align: left;
+    opacity: 0.6;
+    margin-top: 20px;
 
 }
 #about-des h3{
-
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 48px;
+}
+.icon{
+    width: 187px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+#fb-s{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(1, 1, 41);
+    
+}
+#fb{
+    width: 100%;
+    
+    
 }
